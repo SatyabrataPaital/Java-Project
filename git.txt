@@ -1,0 +1,590 @@
+git install
+-----------
+
+git help -a-->it'll list of command
+
+git help-g->it ll give various gide
+
+git help glossory
+
+git help init-->for particular command if requared
+
+how help in linux
+-----------------
+git help
+
+git hel clone
+
+git -quit -->for quit
+
+git help -glossory
+
+
+configuring authore name and email
+----------------------------------
+
+cmd-pwd
+
+mkdir git -fast
+
+cd git-fast
+
+windows +ctrl+l (or) clear enter
+
+git config --global--list
+
+for configure for user name
+----------------------------
+git config--global user.name "satya"--press enter
+
+press arrow key for bring out command which we have use earlier
+
+git config --global user.email "satyabrata02@gmail.com"  press enter
+
+git config --global --list
+
+enter--vi
+
+.gitconfig  
+
+for exit from command 
+---------------------
+
+:q 
+
+empty git repository
+====================
+
+cmd
+---
+
+git -fast
+
+mkdir my reporFrom scratch
+
+cd myrepo fromscratch
+
+for see list
+----------------
+ls -l
+
+git init
+
+ls-al  list of all directory
+
+make file
+--------
+
+echo "this is my first file using ucho command"
+first file using echo.txt
+
+enter --ls
+
+cat +tab
+
+for clear screen --clear
+
+vi secondfileusingvi .txt
+
+press i from key bord
+
+press-->escape :wq-->or quite from file
+
+ls -al for content of entire git reposotory
+
+git fundamental
+---------------
+
+for download project
+---------------------
+
+go to initializor.com...for preconfigure project
+
+download  template like h5bp download
+
+
+go to terminal
+
+copy file directory and pest in command
+initializer iverekia .zip
+
+ls -l for check
+
+for unzip
+
+unzip  initializer.zip
+
+rm the zip file
+
+rm initializer overion.zip
+
+mv initializer/ my repo  from existingsour -- for renmae
+cd tab for entered directory
+
+ls -l enter
+
+ls -al  enter
+
+clear
+
+git init
+
+for check content directory
+
+ls  -al
+
+github
+------
+what is git hub?
+
+it is a web base git reposotory hosting service
+
+is has launch 2008
+
+it offers for private and free acount
+
+documentation
+
+go to github.com
+
+click sign up for new user
+
+
+user name
+
+email address
+enter password
+
+click create an account
+
+what is fork
+
+it is a existing project 
+
+we want  encouragement contribution updates
+
+how fork can be done
+
+sample github project --click on it
+
+fork --it will display right cornor of your git hub account on top
+
+fork created copy of existing project to you
+
+clone mean
+-----------
+
+copy to clip board 
+
+cmd- cd git -fast
+
+git clone past the url press enter
+
+for check
+
+ls -l
+
+cd java -project (master)$  ls -al press enter
+
+
+basics
+-------
+1.modify
+
+2.staged
+
+3.commited 
+
+add command
+------------
+
+pwd  enter
+
+git -fast
+
+ls  press enter
+
+cd myrepofromscratch  press enter
+
+for content check
+
+ls   press enter
+
+vi demofile1  press enter
+
+we are now in vieditor
+
+press i key on key board
+
+key something
+
+we are going to demonstrate of add command
+
+for quite  :wq  -->save and quite
+
+
+clear screen
+
+git  status  press enter
+
+git add command
+----------
+
+git add demofile1
+
+git status press enter
+
+how to unstage state a file or untrack a file
+
+git rm--cached demofile1
+
+git status
+
+go to home directory
+
+git add demofile1  press enter
+
+clear screan
+
+git status
+
+git commit  -m " our first commit " (press enter) m indicate commit
+
+ways of inspect element in git
+------------------------------
+
+how to check status in git
+-------------------
+
+cmd
+
+cd git ifast/myrepofromscratch  press tab
+
+it will display master
+
+ls -l to inspect content to directory
+
+git status
+
+vi weightlossChart  press enter
+
+press i key
+
+i want to shed 15 kg in k weeks
+
+press escape key :wq
+
+vi dietchart
+
+press i key to insert some content
+
+i want to add more green vegetables to my diet..
+
+press escape :wq
+
+clear
+
+issue get status command
+
+git status
+
+git status --long  (long --default behaviour)
+
+git status -s(s means short)
+
+?? indecate the file content not track by git
+
+git add weightlosschart
+
+git status -s  press enter
+
+A  (it indicate file has added)
+
+git commit -m "1st commit for weight loss"
+
+git status -s 
+
+vi weifhtloss chart
+
+key some content on it
+
+escape :wq
+
+git status -s
+M(it stands for modify status)
+
+git stauts -s
+
+green M (it means it is going to be added )
+
+git commit -m "2nd commit for chart"  press enter
+
+ls -l
+rename the file
+
+D(it chance for deleted and unassign stage  ir it looks red)
+
+git log command
+---------------
+
+it dispage the commit history
+
+vi demofile3 press enter
+
+press i key to insert simple content
+
+press escape :wq
+
+
+git log
+
+git display commit history or project history
+
+to quit from it press :q
+
+git log --oneline  press enter -->it ll display short form of the commit identifier
+
+ls -l
+
+git log demofile1 press enter
+
+git log<since>..<until>
+.......................
+
+copy the showing content
+
+git log d110120..online
+
+git log --online press enter
+
+git log -n 3 --oneline
+
+
+peek git branching
+------------------
+
+git branch
+
+for particular branch
+---------------------
+git branch  demobbranch
+
+git branch  press enter
+
+gt checkout demobranch-->here we ll switch to demobranch
+
+git log --oneline
+
+checking out commits in a git repository
+----------------------------------------
+
+check out for check out commit
+
+git checkout <commit-id>
+
+what git check out commit is
+--------------------------
+
+unzip zip file press enter
+
+check content of directory
+
+git -fast
+
+mkdir demo -checkout-commit(this is git reposotory)
+
+copy all content from initializor to folder
+
+mkdir demo-ckeckout-commit
+
+copy
+----
+cp -rf initializr /* demo-checkout-commit/
+
+removie direcotory initializor
+----------------------
+
+
+rm -rf initializr
+ls press enter
+
+git init 
+
+git stauts
+
+add content to directory
+
+git add.
+
+git status
+
+git commit -m "all file commited"
+
+git status
+
+check content
+
+peek one file and commit on it
+---------------------------------
+
+vi robot.txt
+
+hi hallow
+
+line 1...
+
+escape  :wq
+
+vi robots.txt
+git commit -am "1st commit-m for message"
+
+t- robot.txt (express commit )"haqllo"
+
+
+pullingg changes from github repository
+--------------------------------------->
+git pull origin master
+
+cat robots.txt()-->used to check using cat command whether the data being change or not
+vi robot.text-->to perform any action on it.
+
+press i to edit in vi-editor
+escape :wq
+git add robot.txt
+
+for statuss --git status
+
+git commit -m "simple message";
+
+git push origin master 
+
+to push back to reposiitary
+
+user name and password for push in git hub
+
+
+git hub via ssh protocol()  ssh mean-secure shell or secure socket shell
+---------------------------
+
+ssh keys are a way to identify trusted computers
+
+this identification doesnt involve in password 
+
+how to generate public and private key in ssh
+
+public key is ment to be shared publicly
+
+private key -private key is meant to be kept securely to oneself
+
+how a public and private key looks like?
+
+ls-l ~/.ssh it represent the home derectory
+
+do i already have ssh keys labb
+-------------------------------
+
+id_rsa(private key)
+id_rsa.pub(public key)
+
+
+to delete those keys
+-----------------------
+rm -rf.ssh
+to see--ls-l ~/.ssh
+
+to generate ourself public key and private key 
+
+by default the key always .pub
+
+like id_dsa.pub
+id_ecdsa.pub
+id_ed25519.pub
+id_rsa.pub
+
+
+there is two types of ssh key generation type
+rsa acronym--rsa stands for "ron rivest,adi shamir, and leonard adleman"
+
+cryptosystem
+------------
+rsa is one of the firsst practical public-key cryptosystems
+
+rsa key length
+--------------
+
+minmum lengtth :768 bits;default length:2048 bit
+
+dsa key 
+--------
+dsa stands for digital signature algorithm
+dsa key length always 1024 bits
+
+how to generate key dsa key pair
+---------------------------------
+ssh-keygen (it will generate a public private rsa paire with default value)
+ssh-keygen -t rs (or)rsa -b(b for key length) 4096 -C (stand for comment)"key pair generation demo"
+
+
+
+-------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
