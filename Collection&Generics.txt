@@ -1,0 +1,29 @@
+*collection is an interface which can contain many implemented class in sub interface
+*ArrayList-used for 
+
+collection-it is an conept
+Collection-it is an interface
+Collections-it is a class
+
+->array are fixed in size but collection are dynamic in nature
+->Collection is an interface which we cant create object
+->Arraylist(c):
+->in array type mandatory but in collection(I) object is default type
+->Generics:we can provide a specific type using generics
+->1.5 generics came,collectio in 1.2
+->Array also support object type,here problem is size is fixed so that's why we need collection
+->Collection(dynamic array):
+-------------
+->collection doesnot work with index no
+->list implement fallow index no
+->in list we can have duplicate value,order is fixed (sequence)
+->in set it doent support duplicate value(it doesn support order)
+->HashSet-(!faloow sorting order)
+->treeset fallow sorting(natural)order.
+->Map(I)-in map it doesn't support index no,it fallows key value format
+->HashMap-(NunSynchronized)
+->Hash table(synchronize)
+->
+->
+
+
